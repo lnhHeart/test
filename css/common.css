@@ -1,0 +1,144 @@
+/*
+* @Author: Kevin
+* @Date:   2018-08-28 15:24:50
+* @Last Modified by:   Kevin
+* @Last Modified time: 2018-09-24 16:49:22
+*/
+ a{
+	color: #fff;
+	text-decoration: none;
+} 
+ #header1 a{
+	color: #fff;
+	text-decoration: none;
+} 
+ #header1 a:hover{
+ 	color: #1c69d4;
+ }
+header{
+	width: 100%;
+	background-color: #8e8e8e;
+	color: #fff;
+	font-family: Arial, "Microsoft YaHei";
+}
+header .top-box{
+	width: 1183px;
+	margin: 0px auto;
+	position: relative;
+}
+header .top-box ::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header .top-box div{
+	padding-bottom: 3px;
+}
+header .top-box div .left-top>li,.left-bottom>li{
+	float: left;
+	margin: 15px;
+	cursor: pointer;
+}
+header .top-box div ul>li{
+	font-size: 15px;
+}
+header .top-box div ol>li{
+	font-size: 18px;
+}
+header .top-box .top-content{
+	width: 100%
+}
+header .top_nav li a:hover{
+	color: #1c69d4;
+}
+.one,.two,.three{
+	float: left;
+	margin: 10px;
+	display: none;
+}
+.one li,.two li,.three li{
+	margin: 10px;
+	font-size: 14px;
+}
+.one{
+	display: none;
+	width: 510px;
+}
+.one li{
+	width: 250px;
+	margin-left: 173px;
+}
+.two{
+	display: none;
+	width: 700px;
+}
+.two li{
+	width: 250px;
+	margin-left: 290px;
+}
+.three{
+	display: none;
+	width: 1000px;
+}
+.three li{
+	width: 250px;
+	margin-left: 405px;
+}
+header .top-box h1{
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	width: 102px;
+	height: 115px;
+	z-index: 3;
+}
+header .top-box h1 img{
+	width: 100%;
+	height: 100%;
+}
+footer{
+	width: 100%;
+	height: 328px;
+	background-color: #8e8e8e;
+	font-size: 15px;
+	color: #fff;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+footer .bottom-box{
+	width: 1183px;
+	margin: 0px auto;
+	line-height: 40px;
+	font-family: Arial, "Microsoft YaHei";
+	border-bottom: solid 1px #bbb;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+footer .bottom-box::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.b-one{
+	font-weight: bolder;
+	font-size: 12px;
+}
+.b-one,.b-two{
+	float: left;
+	margin-right: 30px;
+}
+.b-one li a:hover{
+	color: #1c69d4;
+}
+.b-two li ul li a:hover{
+	color: #1c69d4;
+}
+.b-two>li>ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.b-two>li>ul>li{
+	float: left;
+	margin-right: 30px;
+}

@@ -1,0 +1,169 @@
+/*
+* @Author: admin
+* @Date:   2018-09-18 15:49:00
+* @Last Modified by:   luonanhui
+* @Last Modified time: 2018-09-24 03:03:23
+*/
+main ul li img{
+	display: block;
+	width: 100%;
+}
+.lis1{
+	position: relative;
+}
+.btn1{
+	position: absolute;
+	top: 0px;
+}
+.btn2{
+	position: absolute;
+	bottom: 0px;
+}
+.btn3{
+	width: 915px;
+	margin: 90px auto 0px;
+	text-align: center;
+	color: #fff;
+	line-height: 32px;
+	position: absolute;
+	top: 140px;
+	left: 335px;
+}
+.btn3 span{
+	width: 530px;
+	height: 60px;
+	position: absolute;
+	top: -85px;
+	left: 200px;
+}
+.lis2{
+	position: relative;
+}
+.btm1{
+	width: 365px;
+	height: 110px;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+.btm2{
+	width: 600px;
+	height: 180px;
+	padding-left: 100px;
+	box-sizing: border-box;
+	line-height: 30px;
+	position: absolute;
+	top: 140px;
+	left: 40px;
+}
+h5{
+	font-weight: bold;
+	font-size: 18px;
+}
+.lis3{
+	position: relative;
+}
+.btv1{
+	width: 365px;
+	height: 110px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.btv2{
+	text-align: right;
+	width: 600px;
+	height: 180px;
+	padding-left: 100px;
+	box-sizing: border-box;
+	line-height: 30px;
+	position: absolute;
+	top: 140px;
+	right: 100px;
+}
+.btv2 h5{
+	margin-right: 0px;
+}
+.lis4{
+	position: relative;
+}
+.btc1{
+	width: 365px;
+	height: 110px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.btc2{
+	width: 600px;
+	height: 180px;
+	padding-left: 100px;
+	box-sizing: border-box;
+	line-height: 30px;
+	position: absolute;
+	top: 140px;
+	left: 40px;
+}
+.lis5{
+	position: relative;
+}
+.btr1{
+	width: 365px;
+	height: 110px;
+	position: absolute;
+	bottom:350px;
+	right: 20px;
+}
+.btr2{
+	text-align: right;
+	width: 600px;
+	height: 180px;
+	padding-left: 100px;
+	box-sizing: border-box;
+	line-height: 30px;
+	position: absolute;
+	bottom: 150px;
+	right: 100px;
+}
+.lis6{
+	position: relative;
+}
+.btq1{
+	width: 365px;
+	height: 110px;
+	position: absolute;
+	top:0px;
+	left: 20px;
+}
+.btq2{
+	width: 600px;
+	height: 180px;
+	padding-left: 100px;
+	box-sizing: border-box;
+	line-height: 30px;
+	color: #fff;
+	position: absolute;
+	top: 110px;
+	left: 20px;
+}
+.lis7{
+	position: relative;
+}
+.btw1{
+	width: 365px;
+	height: 110px;
+	position: absolute;
+	top:20px;
+	right: 20px;
+}
+.btw2{
+	text-align: right;
+	width: 600px;
+	height: 180px;
+	padding-left: 100px;
+	box-sizing: border-box;
+	line-height: 30px;
+	position: absolute;
+	top: 150px;
+	right: 100px;
+}

@@ -1,0 +1,46 @@
+/*
+* @Author: Kevin
+* @Date:   2018-09-16 20:30:36
+* @Last Modified by:   Kevin
+* @Last Modified time: 2018-09-23 01:53:09
+*/
+main{
+	width: 1184px;
+	margin: 0px auto;
+	padding-top: 39px;
+	padding-bottom: 90px;
+	font-size: 14px;
+	color: #262626;
+}
+main h4{
+	font-size: 32px;
+}
+.s_box{
+	margin-top: 83px;
+	height: 325px;
+}
+.s_box .left{
+	width: 557px;
+	height: 100%;
+	float: left;
+	margin-right: 51px;
+}
+.left h5{
+	font-size: 34px;
+	font-weight: bolder;
+}
+.left p{
+	margin: 25px 0px;
+}
+.left span{
+	display: block;
+}
+.s_box .right{
+	width: 557px;
+	height: 100%;
+	float: left;
+}
+.right img{
+	width: 100%;
+	height: 100%;
+}

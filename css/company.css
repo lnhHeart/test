@@ -1,0 +1,197 @@
+/*
+* @Author: admin
+* @Date:   2018-09-11 19:22:14
+* @Last Modified by:   Kevin
+* @Last Modified time: 2018-09-24 15:09:12
+*/
+
+section{
+	width: 1185px;
+	margin: 0px auto;
+}
+section h3{
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 24px;
+	margin-bottom: 9px;
+}
+section h4{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 18px;
+}
+section p{
+	font-size: 13px;
+	line-height: 19px;
+	margin-bottom: 16px;
+	/* width: 520px; */
+}
+section div{
+	margin-top: 90px;
+	/* margin-bottom: 90px; */
+}
+section ul{
+	padding-top: 0px;
+}
+section ul li{
+	font-weight: bold;
+	font-size: 13px;
+	/* height: 40px; */
+	line-height: 40px;
+	margin-bottom: -15px;
+	
+
+}
+section ul li span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #1c69d4;
+	vertical-align: middle;
+	margin-right: 10px;
+	font-size: 32px;
+	text-align: center;
+	line-height: 40px;
+	transform: rotate(-90deg);
+	cursor: pointer;
+}
+section ul p{
+	width: 520px;
+	font-size: 13px;
+	font-weight: normal;
+	display: none;
+	line-height: 20px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+section .ptx{
+	display: block;
+}
+section form{
+	width: 1185px;
+	margin: 20px auto;
+	margin-bottom: 375px;
+	position: relative;
+}
+section #ones{
+	width: 573px;
+	height: 36px;
+	margin-left: 258px;
+
+}
+/* i{
+	position: absolute;
+    right: 310px;
+    width: 36px;
+    top: 0;
+    font-size: 20px;
+    background-color: #1c69d4;
+    color: #fff;
+    z-index: 2;
+    height: 36px;
+} */
+section input{
+	border: 2px solid #ccc;
+	width: 573px;
+	height: 36px;
+	margin-left: 273px;
+	outline: none;
+}
+section .lnhinput{
+	margin-left: 273px;	
+}
+section select{
+	border: 2px solid #ccc;
+	outline: none;
+}
+.mps{
+	margin-left: 233px;
+}
+.diso{
+	margin-left: 226px;
+}
+.essh{
+	width: 280px;
+	margin-left: 242px;
+}
+#twos{
+	margin-left: 233px;
+	width: 280px;
+	height: 36px;
+}
+#threes{
+	margin-left: 12px;
+	width: 280px;
+	height: 36px;
+}
+#fours{
+	width: 575px;
+	height: 36px;
+	margin-left: 190px;
+}
+.pmxs{
+	width: 280px;
+	height: 40px;
+	background-color: #1c69d4;
+	cursor: pointer;
+	margin-left: 0px;
+	font-weight: 700;
+	color: #fff;
+	border: none;
+}
+.oosi{
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	margin-left: 0px;
+	vertical-align: middle;
+}
+.ptsr{
+	font-size: 12px;
+	color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

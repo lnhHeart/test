@@ -1,0 +1,236 @@
+/*
+* @Author: admin
+* @Date:   2018-09-20 13:48:08
+* @Last Modified by:   Kevin
+* @Last Modified time: 2018-09-24 20:57:33
+*/
+.contain{
+	position: relative;
+}
+.contain ul li{
+	width: 100%;
+	overflow: hidden;
+}
+.contain ul li img{
+	display: block;
+	width: 100%;
+}
+.contain_one{
+	position: relative;
+}
+.contain_one .active1_img{
+	position: absolute;
+	top: 44px;
+	left: 28px;
+	width: 740px;
+}
+.contain_two{
+	position: relative;
+}
+.contain_two .active2_img{
+	position: absolute;
+	top: 35px;
+	left: 54px;
+	width: 513px;
+}
+.contain_two p{
+	position: absolute;
+	left: 54px;
+	top: 250px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 22px;
+	width: 322px;
+}
+.contain_three{
+	zoom: 1;
+	position: relative;
+}
+.contain_three::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.contain_three .active3_nav dl{
+	float: left;
+	position: absolute;
+	top: 337px;
+	left: 25%;
+}
+.contain_three .active3_nav dl:last-child{
+	left: 43%;
+}
+.active3_nav dt img{
+	width: 35px;
+	cursor: pointer;
+}
+.active3_nav dd{
+	display: none;
+}
+.active3_nav dd h5{
+	font-size: 12px;
+	font-weight: bolder;
+}
+.active3_nav dd p{
+	font-size: 12px;
+	line-height: 22px;
+	width: 392px;
+}
+.active3_nav dd span{
+	display: block;
+	font-size: 12px;
+	cursor: pointer;
+}
+.contain_four{
+	zoom: 1;
+	position: relative;
+	z-index: 2;
+}
+.contain_four::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.contain_four .active4_nav dl{
+	float: left;
+	position: absolute;
+	top: 30px;
+	left: 143px;
+}
+.contain_four .active4_nav dl:nth-of-type(2){
+	top: 78px;
+}
+.contain_four .active4_nav dl:nth-of-type(3){
+	top: 127px;
+}
+.contain_four .active4_nav dl:nth-of-type(4){
+	top: 175px;
+}
+.active4_nav dt{
+	width: 195px;
+}
+.active4_nav dt img{
+	width: 100%;
+	cursor: pointer;
+}
+.active4_nav dd{
+	display: none;
+}
+.active4_nav dd h5{
+	font-size: 14px;
+	font-weight: bolder;
+	color: #fff;
+}
+.active4_nav dd p{
+	font-size: 12px;
+	line-height: 22px;
+	width: 290px;
+	color: #fff;
+	font-weight: bolder;
+}
+.active4_nav dd span{
+	display: block;
+	font-size: 12px;
+	cursor: pointer;
+	color: #fff;
+}
+.contain_five{
+	position: relative;
+	margin-top: -100px;
+}
+.cotain_fivebg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.active_txt{
+	position: absolute;
+	left: 70px;
+	top: 120px;
+}
+.active_txt h5{
+	font-size: 18px;
+	font-weight: bolder;
+}
+.active_txt p{
+	width: 460px;
+	line-height: 22px;
+	font-size: 13px;
+}
+.contain_six{
+	position: relative;
+}
+.active6_txt{
+	position: absolute;
+	top: 0px;
+	left: 79px;
+	width: 320px;
+}
+.active6_txt img{
+	width: 100px;
+}
+.contain_six>p{
+	position: absolute;
+	top: 133px;
+	left: 79px;
+	color: #fff;
+	line-height: 22px;
+	font-size: 13px;
+	width: 302px;
+}
+.active6_bottom{
+	position: absolute;
+	left: 292px;
+	bottom: 5px;
+	overflow: hidden;
+}
+.active6_bottom .pic{
+	width: 333px;
+	height: 333px;
+	padding: 32px;
+	box-sizing: border-box;
+	border: solid 2px #ffca00;
+	float: left;
+}
+.active6_bottom .pic img{
+	width: 100%;
+}
+.active6_bottom .txt{
+	width: 393px;
+	margin-left: 36px;
+	float: left;
+}
+.active6_bottom .txt img{
+	width: 68px;
+}
+.active6_bottom .txt h4{
+	color: #fff;
+	margin: 14px 0px;
+	font-weight: bolder;
+	font-size: 22px;
+	color: #ffca00;
+}
+.active6_bottom .txt p{
+	color: #fff;
+	line-height: 22px;
+	font-size: 14px;
+	color: #ffca00;
+}
+.contain_bottom{
+	padding: 29px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.contain aside{
+	position: absolute;
+	z-index: 5;
+	left: 3px;
+	top: 1002px;
+}
+.contain aside ul li{
+	display: block;
+	width: 94px;
+}
+.contain aside ul li img{
+	width: 100%;
+}

@@ -1,0 +1,87 @@
+/*
+* @Author: admin
+* @Date:   2018-08-29 19:24:08
+* @Last Modified by:   luonanhui
+* @Last Modified time: 2018-09-23 21:31:26
+*/
+body{
+	font-family: "Arial","Helvetica","Noto Sans CJK SC","Noto Sans",sans-serif;
+}
+li{
+	list-style: none;
+}
+main{
+	width: 1210px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: ;
+}
+.banner h3{
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 85px;
+	margin-bottom: 40px;
+}
+label{
+	font-weight: bold;
+}
+form{	
+	overflow: hidden;
+}
+form ul li{
+	width: 200px;
+	height: 45px;
+	float: left;
+	font-size: 12px;
+}
+form ul li span input{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #bbbbbb;
+	border-radius: 0px;
+	vertical-align: middle;
+}
+#user{
+	color: #fff;
+}
+/*  */
+section{
+	width: 1210px;
+	margin-top: 30px;
+	/* background-color: skyblue; */
+	
+}
+section::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+section div{
+	width: 250px;
+	height: 210px;
+	float: left;
+	margin-right: 50px;	
+	/* background-color: pink; */
+	margin-bottom: 10px;
+}
+section div li{
+	width: 250px;
+	height: 110px;
+	margin-bottom: 30px;
+}
+section div h4{
+	font-size: 18px;
+	font-weight: bold;
+}
+section div h6{
+	font-style: normal;
+    color: #262626;
+    font-size: 15px;
+    font-weight: bold;
+}
+section div a{
+	color: #bbb;
+}
+section div a:hover{
+	color: #1c69d4;
+}

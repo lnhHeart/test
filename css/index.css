@@ -1,0 +1,346 @@
+/*
+* @Author: Kevin
+* @Date:   2018-08-29 19:10:33
+* @Last Modified by:   luonanhui
+* @Last Modified time: 2018-10-13 09:23:48
+*/
+.banner{
+	width: 100%;
+	height: 620px;
+	overflow: hidden;
+	position: relative;
+}
+.banner:hover span{
+	display: inline-block;
+}
+.banner ul{
+	width: 700%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+}
+.banner ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.banner ul li{
+	float: left;
+
+	height: 100%;
+}
+.banner ul li img{
+	width: 100%;
+	height: 100%;
+}
+.banner span{
+	width: 40px;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	display: none;
+	cursor: pointer;
+}
+.banner span:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.banner-left{
+	left: 0px;
+}
+.banner-right{
+	right: 0px;
+}
+.banner-nav ol{
+	margin-top: 5px;
+	overflow: hidden;
+}
+.banner-nav ol li{
+	float: left;
+	width: 263px;
+	height: 5px;
+	margin-right: 4px;
+	opacity: 0;
+	background-color: #1c69d4;
+}
+.banner-nav ol li.blue{
+	opacity: 1;
+	background-color: #1c69d4;
+}
+main{
+	width: 1183px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial, "Microsoft YaHei";
+}
+.content-nav>ul{
+	overflow: hidden;
+	/* position: relative; */
+}
+.content-nav>ul>li{
+	width: 190px;
+	height: 100px;
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	border: solid 1px #bbb;
+	background-color: #8e8e8e;
+	cursor: pointer;
+	position: relative;
+}
+.content-nav>ul>li span{
+	position: absolute;
+	left: 10px;
+	bottom: 15px;
+	color: #fff;
+	font-size: 14px;
+}
+.content-nav>ul>li::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.content-nav>ul>li:hover{
+	background-color: #fff;
+}
+.content-nav>ul>li:hover span{
+	color: #1d4fd3;
+}
+.content-nav .car_top>li:nth-of-type(1){
+	background-image: url('../images/nav01.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_top>li:nth-of-type(2){
+	background-image: url('../images/nav12.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_top>li:nth-of-type(3){
+	background-image: url('../images/nav02.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_top>li:nth-of-type(4){
+	background-image: url('../images/nav03.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_top>li:nth-of-type(5){
+	background-image: url('../images/nav04.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_top>li:nth-of-type(6){
+	background-image: url('../images/nav05.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_bottom>li:nth-of-type(1){
+	background-image: url('../images/nav06.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_bottom>li:nth-of-type(2){
+	background-image: url('../images/nav07.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_bottom>li:nth-of-type(3){
+	background-image: url('../images/nav08.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_bottom>li:nth-of-type(4){
+	background-image: url('../images/nav09.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_bottom>li:nth-of-type(5){
+	background-image: url('../images/nav10.png.svg');
+	background-size: 100% 100%;
+}
+.content-nav .car_bottom>li:nth-of-type(6){
+	background-image: url('../images/nav11.png.svg');
+	background-size: 100% 100%;
+}
+.car_topCtn{
+	width: 100%;
+}
+.car_topCtn .car_box{
+	overflow: hidden;
+}
+.car_topCtn .car_box li{
+	width: 280px;
+	float: left;
+	margin-right: 10px;
+}
+.car_topCtn .car_box li img{
+	margin-top: 65px;
+	width: 100%;
+}
+.car_topCtn .car_box h4{
+	font-size: 17px;
+	font-weight: bolder;
+}
+.car_topCtn .car_box p{
+	font-size: 15px;
+	margin: 5px 0px;
+}
+.car_topCtn .car_box span{
+	font-size: 14px;
+}
+.car_box{
+	display: none;
+}
+.car_topCtn .car_dspl{
+ 	display: block;
+}
+.car_botCtn{
+	width: 100%;
+}
+.car_botCtn .car_box{
+	overflow: hidden;
+}
+.car_botCtn .car_box li{
+	width: 280px;
+	float: left;
+	margin-right: 10px;
+}
+.car_botCtn .car_box li img{
+	margin-top: 95px;
+	width: 100%;
+}
+.car_botCtn .car_box h4{
+	font-size: 17px;
+	font-weight: bolder;
+}
+.car_botCtn .car_box p{
+	font-size: 15px;
+	margin: 5px 0px;
+}
+.car_botCtn .car_box span{
+	font-size: 14px;
+}
+.car_botCtn .car_dspl{
+ 	display: block;
+}
+.content_banner{
+	margin-top: 85px;
+	width: 100%;
+}
+.content_banner h2{
+	font-size: 35px;
+	font-weight: bolder;
+}
+.content_banner ul{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.content_banner ul li{
+	width: 185px;
+	line-height: 35px;
+	float: left;
+	margin-right: 15px;
+	color: #6a6a6a;
+	cursor: pointer;
+	border-bottom: 5px solid  #6a6a6a; 
+}
+.content_banner ul li.banner_color{
+	color:  #1c69d4;
+	border-bottom:5px solid #1c69d4;
+}
+.content_banner ul li:hover{
+	color: #1d4fd3;
+	border-bottom:5px solid #1d4fd3;
+}
+.content_bannerPic::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.content_bannerPic .bannerPic_left{
+	float: left;
+	width: 582px;
+	margin-right: 15px;
+}
+.content_bannerPic .bannerPic_left img{
+	width: 100%;
+}
+.content_bannerPic .bannerPic_right{
+	float: left;
+	width: 556px;
+}
+.content_bannerPic .bannerPic_right a{
+	display: inline-block;
+	color: #666;
+	width: 70px;
+	height: 22px;
+}
+.content_bannerPic{
+	overflow: hidden;
+}
+.content_bannerPic ol{
+	width: 9999px;
+}
+.content_bannerPic ol li{
+	float: left;
+	width: 1183px;
+}
+.content{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 108px;
+}
+.content ul li{
+	width: 574px;
+	height: 449px;
+	margin-right: 15px;
+	border: solid 1px #e6e6e6;
+	margin-top: 90px;
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.content ul li img{
+	width: 100%;
+}
+.content ul h4{
+	font-size: 33px;
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+.content ul h5{
+	margin-bottom: 13px;
+	font-size: 14px;
+}
+.content span{
+	color: #666;
+	font-size: 14px;
+}
+.content ul li a{
+	color: #333;
+	font-size: 12px;
+}
+.content ol li{
+	width: 280px;
+	height: 262px;
+	padding: 15px;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 90px;
+	border: solid 1px #e6e6e6;
+	margin-right: 15px;
+	position: relative;
+}
+.content ol li img{
+	width: 100%;
+}
+.content ol h4{
+	font-size: 22px;
+}
+.content ol p{
+	font-size: 14px;
+}
+.content ol li a{
+	color: #333;
+	font-size: 12px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
